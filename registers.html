@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signupstyle.css">
+    <script src="https://kit.fontawesome.com/bea7145409.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section class="header"> 
+        <nav>
+            
+            <h2 class="logo" ><a href="PISCIS.html">UnderTheSea</a></h2>
+            <div class="navi">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="signin.html">Join</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                 
+                </ul>
+
+            </div>
+        </nav>
+
+
+    </section>
+
+    <div class="signup">
+        <h1>Register</h1>
+        <div class="Inputhere">
+            <i class="fa-solid fa-user "></i>
+            <input type="Username" placeholder="       Username">
+        </div>
+
+
+        <div class="Inputhere">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="       Email">
+        </div>
+
+        <div class="Inputhere">
+            <i class="fa-solid fa-key"></i>
+            <input type="password" placeholder="       Password" id="passlogin">
+
+            <span class="seepass" onclick="myFunction()">
+            <i class="fa-solid fa-eye" id="seepass1"></i>
+            <i class="fa-solid fa-eye-slash" id="noseepass"></i>
+
+        </span>
+        </div>
+
+        <div class="Inputhere">
+            <i class="fa-solid fa-user "></i>
+            <input type="Confirm Password" placeholder="       Confirm Password">
+        </div>
+
+        <div class="Inputhere">
+            <i class="fa-solid fa-mars-and-venus"></i>
+            <label>Gender</label>
+            <div class="select-gender">
+                <select placeholder="Select">
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="Inputhere">
+            <i class="fa-solid fa-phone"></i>
+            <input type="Phonenumber" placeholder="       Phone Number">
+        </div>
+
+
+
+        <button type="button" class="loginbutton">Sign Up</a></button>
+
+        <h5 class="registers">Already have an account?</h5>  
+        <h5 class="text-signup"><a href="registers.html">Sign in</a></h5>
+        
+
+    
+    </div>
+
+    <script>
+        function myFunction(){
+            var o = document.getElementById("passlogin");
+            var x = document.getElementById("seepass1");
+            var k = document.getElementById("noseepass");
+
+            if(o.type === 'password' ){
+                o.type = "text";
+                x.style.display = "block";
+                k.style.display = "none";
+
+            }else{
+                o.type = "password";
+                x.style.display = "none";
+                k.style.display = "block";
+            }
+
+        }
+    </script>
+
+<section class="footer">
+    <h6 class="logofooter" ><a href="">UnderTheSea</a></h6>
+    <p>Follow Our Social Media</p>
+    <div class="socialmedia">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        
+    </div>
+
+    <ul class="navi-2">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="signin.html">Join</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+
+    </ul>
+</section>
+
+    
+    
+</body>
+</html>
