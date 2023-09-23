@@ -109,7 +109,7 @@ nav{
 } */
 
 .gambarheader{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(images/underthesea2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(/images/underthesea2.jpg);
     /* /* width: 100%; */
     margin-top: -15.2cm;
     height: 100vh; 

@@ -9,7 +9,7 @@
 body{
     min-height: 100vh;
     font-family: sans-serif;
-    background-image:url(/images/animals-dolphin-sea-wallpaper-preview.jpg);
+    background-image:url(images/animals-dolphin-sea-wallpaper-preview.jpg);
     background-size: cover;
     background-position: center;
 }

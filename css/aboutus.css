@@ -108,7 +108,7 @@ nav{
 }
 
 .about{
-    background: url(images/aboutus-bg.jpg) no-repeat left;
+    background: url(/images/aboutus-bg.jpg) no-repeat left;
     background-size: 55%;
     background-color: 	#0066cc;
     overflow: hidden;
